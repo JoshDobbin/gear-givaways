@@ -1,7 +1,7 @@
 gear-givaways
 =============
 
-This project is really just a mash-up of other peoples work. I am new to 3D printing and have been showing the printer off to lots of my firends and family. I wanted something small that I could give kids to take home with them.  
+I am new to 3D printing and have been showing the printer off to lots of my firends and family. I wanted something small that I could give kids to take home with them.  
 
 This is a highly customizable project that lets me put whatever I want on a gear. The gear has a keychain hole in it so kids can use them on their backbpacks.  I found a variety of methods for adding things to the gear using openscad and this repository give three examples:
 
