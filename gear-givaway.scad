@@ -39,7 +39,7 @@ include <gear-v3.scad>
 //include <customizable_robot_keychain_v03.scad>;
 
 //scale([.70, .70, 0.5]) translate([-178,-270,1]) linear_extrude(height = 3)  import(file = "Rivet1BW_WOW_head.dxf", layer = "Layer_1", center="true");//scale([.33, .33, .5]) translate([-100,-190,1]) linear_extrude(height = 3)  import(file = "Rivet1BW_WOW_Frame2.dxf", layer = "Layer_1", center="true");
-scale([.20, .20, .5]) translate([-105,-200,1]) linear_extrude(height = 3)  import(file = "WOWNotagHoz1C_Frame.dxf", layer = "Layer_1", center="true");
+//scale([.20, .20, .5]) translate([-105,-200,1]) linear_extrude(height = 3)  import(file = "WOWNotagHoz1C_Frame.dxf", layer = "Layer_1", center="true");
 //scale([.15, .15, 0.5]) translate([-105,-175,1]) linear_extrude(height = 3)  import(file = "Robot1BW_WOW_Frame2.dxf", layer = "Layer_1", center="true");
 //scale([.15, .15, 0.5]) translate([-105,-170,1]) linear_extrude(height = 3)  import(file = "Robot2BW_WOW_Frame2.dxf", layer = "Layer_1", center="true");
 //scale([.15, .15, 0.5]) translate([-105,-170,1]) linear_extrude(height = 3)  import(file = "Robot3BW_WOW.dxf", layer = "Layer_1", center="true");
