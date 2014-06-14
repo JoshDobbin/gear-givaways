@@ -40,6 +40,8 @@
 //  20130106: fix small glitch seen at junction of fillet and bottom land (for
 //            illustration of the problem, see "0106-fix.jpg" at
 //            thingiverse.com/thing:40410)
+//
+//  20140614: disabled example gear for gear-givaway project
 
 // 32 teeth is the real "missing" gear size, because all the other
 // multiples of 8 are available. An argument can also be made for 28 (which
@@ -70,7 +72,7 @@
 // based on the number of teeth.
 
 // As an example, make one gear.
-myGear(11);
+//myGear(11);
 
 module myGear(n_teeth) {
   if (n_teeth >= 56) {
