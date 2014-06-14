@@ -2,12 +2,13 @@ include <utils/build_plate.scad>
 
 //preview[view:west, tilt:top]
 
-//Overall Scale	
-worldScale = 1; 
+//Overall Scale
+// Made slightly smaller for gear	
+worldScale = 0.75; 
 
 
 //Direction of eyes
-eyeRotate = 90; //[0:360]
+eyeRotate = 45; //[0:360]
 
 //Distance to center of eye
 eyeDistance = 0; //[0:15] 
@@ -21,7 +22,8 @@ antennaLength = 5; //[1:10]
 antenna = true; //["true", "false"]
 
 // Attach a loop to hang it with.
-keyAttachPos = [22, 0, 0];
+// Remove keychain loop for gear
+//keyAttachPos = [22, 0, 0];
 
 // Cut out the center from the rest.
 keyAttachCutOut = false; //[true, false]
@@ -374,8 +376,8 @@ module hand(openAmount, width){
 
 }
 
-
-scale([worldScale, worldScale, worldScale]){
+//Translate and rotate to fit gear
+translate([0,0,1]) rotate([0,0,90])scale([worldScale, worldScale, worldScale]){
 difference(){
 	union(){
 		if (!keyAttachCutOut){
