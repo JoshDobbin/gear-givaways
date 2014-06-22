@@ -4,8 +4,7 @@ include <gear-v3.scad>
 // Example 1: importing an existing STL file. Need to scale, rotate and translate to fit on the gear
 //Ultimaker Robot (stl file from https://www.youmagine.com/designs/ultimaker-key-fob-flat)
 difference() {
-	translate([0,0,1]) rotate([0,0,0]) scale(0.90) import("ultimaker_fob_1_ES_TECH.stl", center=true);
-	cube(x=10,y=10,z=10, center=true);
+	rotate([0,0,0]) scale(0.90) translate([0,-1,0.8]) import("ultimaker_fob_1_ES_TECH.stl", center=true);
 }
 
 // Example 2: including another open scad file
